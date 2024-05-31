@@ -1,0 +1,77 @@
+.navbar {
+    height: 10vh;
+}
+.sliding-image {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+backtop{
+    scroll-behavior: smooth;
+}
+.card {
+    height: 50vh;
+    width: 30vw;
+}
+.card-img {
+    height: 50vh;
+    width: 30vw;
+}
+.product-img{
+    height: 40vh;
+    width: 20vw;
+}
+.feature{
+    background: rgb(0,121,230);
+    background: linear-gradient(0deg, rgba(0,121,230,1), rgba(0,255,2551) 90%);
+}
+.cart-container {
+    background-image: linear-gradient(0deg, rgb(136, 197, 239), rgb(92, 173, 244),rgb(159, 140, 225) 100%);
+}
+.cart-container2 {
+    background-image: linear-gradient(180deg, rgb(136, 197, 239), rgb(92, 173, 244),rgb(159, 140, 225) 100%);
+}
+.my-container {
+    height: 100%;
+    width: 700px;
+}
+.bg_checkout_1 {
+background-color: #8ec5fc;
+background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.bg_checkout_1 {
+    background-color: #8ec5fc;
+background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.backtop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.unorder-list {
+    list-style-type: none;
+}
+.footer_title {
+    padding-left: 30px;
+}
+.nav-item:hover {
+    color: black;
+    background-color: #f3eff7;
+}
+.about-card:hover {
+    transform: scale(1.1);
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.single_product:hover {
+    transform: scale(1.1);
+}
+.list-link:hover {
+    color:#f3bbba;
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
